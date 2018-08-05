@@ -7,16 +7,86 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
- <link rel="shortcut icon" type="image/png" href="assets/images/n_logo.png" />
+    <link rel="shortcut icon" type="image/png" href="assets/images/n_logo.png" />
+
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
     <title>Home</title>
+    <script>
+        $(document).ready(function() {
+
+            $(".carousel").owlCarousel({
+                items: 3,
+                autoplay: true,
+//                center: true,
+//                loop: true,
+                rewind: true,
+                autoplayTimeout: 2000
+                //                responsive: {
+                //                    0: {
+                //                        items: 1
+                //                    },
+                //                    750: {
+                //                        items: 3,
+                //                        margin: 30
+                //                    }
+                //                }
+            });
+
+        });
+    </script>
 </head>
 
 <body>
     <div id="n-page">
+
         <header id="n-header">
 
         </header>
+
+
+
+        <div class="carousel owl-carousel owl-theme owl-loaded n-tech">
+            <div class="owl-stage-outer">
+                <div class="owl-stage">
+                    <div class="owl-item">
+                        <img src="assets/images/tech/Bootstrap-Logo.png" style="width: 50%" alt="client">
+                    </div>
+                    <div class="owl-item">
+                        <img src="assets/images/tech/jee-logo.png" style="width: 50%" alt="client">
+                    </div>
+                    <div class="owl-item">
+                        <img src="assets/images/tech/nodejs-logo2.png" style="width: 50%" alt="client">
+                    </div>
+                    <div class="owl-item">
+                        <img src="assets/images/tech/oracle-database.png" style="width: 50%" alt="client">
+                    </div>
+                    <div class="owl-item">
+                        <img src="assets/images/tech/html5-js-css3-logo.png" style="width: 50%" alt="client">
+                    </div>
+
+                </div>
+            </div>
+<!--
+            <div class="owl-nav">
+                <div class="owl-prev">prev</div>
+                <div class="owl-next">next</div>
+            </div>
+-->
+<!--
+            <div class="owl-dots">
+                <div class="owl-dot active"><span></span></div>
+                <div class="owl-dot"><span></span></div>
+                <div class="owl-dot"><span></span></div>
+            </div>
+-->
+        </div> <!-- Owl carousel end -->
+
+
+
         <div id="experience"></div>
         <div id="skills"></div>
         <div id="technologies"></div>
@@ -25,16 +95,18 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
 
-    <!--	<script src="assets/js/jquery-1.12.4.js"></script>-->
+
     <script src="assets/js/scrollspy.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/smoothScroll.js"></script>
+
 </body>
+
 </html>

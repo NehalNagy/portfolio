@@ -1,14 +1,28 @@
-body,html{
-   margin: 0;
-   padding: 0;
+body,
+html {
+    margin: 0;
+    padding: 0;
 
 }
 
-#n-header{
+#n-header {
     height: 100vh;
     background-image: url('/assets/images/header.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
+
+
+
+.n-tech{
+  width: 90%;
+    margin: 0 auto;
+}
+
+
+
+
+
 /*
 //--------------------Bootstrap media queries
 // Extra small devices (portrait phones, less than 576px)
