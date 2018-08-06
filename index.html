@@ -12,33 +12,12 @@
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
     <script src="assets/js/jquery-1.12.4.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/script.js"></script>
     <title>Home</title>
-    <script>
-        $(document).ready(function() {
 
-            $(".carousel").owlCarousel({
-                items: 3,
-                autoplay: true,
-                rewind: true,
-                autoplayTimeout: 2000,
-                slideTransition : "linear",
-                responsive: {
-                    0: {
-                        items: 1,
-
-                    },
-                    750: {
-                        items: 3,
-
-                    }
-                }
-            });
-
-        });
-
-    </script>
 </head>
 
 <body>
@@ -47,44 +26,30 @@
         <header id="n-header">
 
         </header>
-
-
-
+        <!--Technologies section-->
         <div class="carousel owl-carousel owl-theme owl-loaded n-tech">
             <div class="owl-stage-outer">
                 <div class="owl-stage">
                     <div class="owl-item">
-                        <img src="assets/images/tech/oracle-database.png" style="width: 50%" alt="client">
+                        <img src="assets/images/tech/oracle-database.png"  alt="oracle database">
                     </div>
                     <div class="owl-item">
-                        <img src="assets/images/tech/jee-logo.png" style="width: 50%" alt="client">
+                        <img src="assets/images/tech/jee-logo.png"  alt="Java EE">
                     </div>
                     <div class="owl-item">
-                        <img src="assets/images/tech/bootstrap-logo.png" style="width: 50%" alt="client">
+                        <img src="assets/images/tech/bootstrap-logo.png" alt="Bootstrap">
                     </div>
                     <div class="owl-item">
-                        <img src="assets/images/tech/nodejs-logo.png" style="width: 50%" alt="client">
+                        <img src="assets/images/tech/nodejs-logo.png"  alt="Nodejs">
                     </div>
 
                     <div class="owl-item">
-                        <img src="assets/images/tech/html5-js-css3-logo.png" style="width: 50%" alt="client">
+                        <img src="assets/images/tech/html5-js-css3-logo.png"  alt="html">
                     </div>
 
                 </div>
             </div>
-            <!--
-            <div class="owl-nav">
-                <div class="owl-prev">prev</div>
-                <div class="owl-next">next</div>
-            </div>
--->
-            <!--
-            <div class="owl-dots">
-                <div class="owl-dot active"><span></span></div>
-                <div class="owl-dot"><span></span></div>
-                <div class="owl-dot"><span></span></div>
-            </div>
--->
+
         </div>
         <!-- Owl carousel end -->
 
@@ -92,7 +57,6 @@
 
         <div id="experience"></div>
         <div id="skills"></div>
-        <div id="technologies"></div>
 
     </div>
 
@@ -107,7 +71,6 @@
 
     <script src="assets/js/scrollspy.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/script.js"></script>
     <script src="assets/js/smoothScroll.js"></script>
 
 </body>

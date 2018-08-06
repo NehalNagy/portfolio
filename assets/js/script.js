@@ -20,3 +20,26 @@ $(function () {
         wow.addBox(this);
     }).scrollSpy();
 });
+//-------Owl Carousel JS:
+$(document).ready(function () {
+
+    $(".carousel").owlCarousel({
+        items: 3,
+        autoplay: true,
+        rewind: true,
+        autoplayTimeout: 2000,
+        slideTransition: "linear",
+        responsive: {
+            0: {
+                items: 1,
+
+            },
+            750: {
+                items: 3,
+
+            }
+        }
+    });
+
+});
+//-------------------------------------------------

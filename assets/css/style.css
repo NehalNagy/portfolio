@@ -17,7 +17,9 @@ body,html {
     margin: 30px auto;
 }
 
-
+.owl-item>img{
+    width: 50%!important;
+}
 
 
 
