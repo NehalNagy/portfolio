@@ -25,7 +25,7 @@ html {
 }
 
 #web-design-projects:after,
-#photography:after {
+#photography:after {/* for making shadow cast on my projects section in home page*/
     content: '';
     position: absolute;
     top: 0;
@@ -53,14 +53,19 @@ html {
 }
 
 .projects-text {
-    color: white;
+    color: #fff;
     position: absolute;
     top: 50%;
     left: 50%;
     z-index: 2;
     transform: translate(-50%, -50%);
 }
-
+.header-text {
+    color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
 
 
 /*
