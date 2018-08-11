@@ -15,7 +15,6 @@ html {
 
 #n-header {
     background-image: url('/assets/images/header.jpg');
-
 }
 
 #web-design-projects {
@@ -25,7 +24,8 @@ html {
 }
 
 #web-design-projects:after,
-#photography:after {/* for making shadow cast on my projects section in home page*/
+#photography:after {
+    /* for making shadow cast on my projects section in home page*/
     content: '';
     position: absolute;
     top: 0;
@@ -37,6 +37,10 @@ html {
     color: #fff;
 }
 
+#technical-skills {
+    padding-top: 3%;
+    text-align: center;
+}
 
 #photography {
     background-image: url('/assets/images/hobbies/photography.jpg');
@@ -60,6 +64,7 @@ html {
     z-index: 2;
     transform: translate(-50%, -50%);
 }
+
 .header-text {
     color: #fff;
     position: absolute;
@@ -67,7 +72,42 @@ html {
     left: 15%;
 }
 
+.arrow-down {
+    color: #fff;
+    font-size: 3rem;
+    position: absolute;
+    bottom: -20px;
+    left: 49%;
+    z-index: 2;
+}
 
+.arrow-down > a {
+    color: white;
+}
+
+#my-designs {
+    text-align: center;
+}
+
+.my-designs-img {
+    width: 200px;
+    height: 200px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.my-designs-img:hover {
+    opacity: 0.7;
+}
+.contact-icons{
+    color: #fff;
+    font-size: 3rem;
+}
+#contact{
+    margin: 0;
+    background-color: blueviolet;
+
+}
 /*
 //--------------------Bootstrap media queries
 // Extra small devices (portrait phones, less than 576px)
