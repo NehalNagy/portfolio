@@ -94,6 +94,8 @@ html {
     height: 200px;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 5%;
+    border: 2px solid #8f62e2;
 }
 
 .my-designs-img:hover {
