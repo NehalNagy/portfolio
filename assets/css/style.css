@@ -97,7 +97,15 @@ html {
     border-radius: 5%;
     border: 2px solid #8f62e2;
 }
+#my-designs a{
+    text-decoration: none;
+    color: #000;
+}
+#my-designs h5{
+    margin-top: 30px;
+    width: 100%;
 
+}
 .my-designs-img:hover {
     opacity: 0.7;
 }
@@ -105,8 +113,8 @@ html {
     color: #fff;
     font-size: 3rem;
 }
-#contact{
-    margin: 0;
+#footer{
+  height: 100px;
     background-color: blueviolet;
 
 }
