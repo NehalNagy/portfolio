@@ -3,7 +3,9 @@ html {
     margin: 0;
     padding: 0;
 }
-
+#n-page{
+    height: 100%;
+}
 #n-header,
 #web-design-projects,
 #photography {
@@ -45,6 +47,7 @@ html {
 #photography {
     background-image: url('/assets/images/hobbies/photography.jpg');
     position: relative;
+    text-align: center;
 }
 
 .n-tech {
