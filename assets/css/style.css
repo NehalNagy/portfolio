@@ -96,31 +96,63 @@ html {
 }
 
 .my-designs-img {
-    width: 200px;
-    height: 200px;
-    transition: .5s ease;
-    backface-visibility: hidden;
+    width: 100%;
+    height: 75%;
     border-radius: 5%;
-    border: 2px solid #8f62e2;
+
 }
 
 #my-designs a {
     text-decoration: none;
-    color: #000;
-
-}
-.social-links{
-   text-decoration: none;
     color: #fff;
 }
-.social-links:hover{
+
+.project {
+    position: relative;
+    height: 200px;
+
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 5%;
+    border: 2px solid #8f62e2;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.project:hover {
+    transform: scale(1.2);
+}
+
+.project-title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #83898e;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+        border-radius: 5%;
+}
+
+
+.project-title h5 {
+    font-weight: 200;
+}
+
+.social-links {
+    text-decoration: none;
+    color: #fff;
+}
+
+.social-links:hover {
     color: #ccc;
 }
+
+/*
 #my-designs h5 {
     margin-top: 30px;
     width: 100%;
 
 }
+*/
 
 .my-designs-img:hover {
     opacity: 0.7;
@@ -143,11 +175,13 @@ html {
     padding: 15px 0;
     text-align: left;
 }
-.contact i{
+
+.contact i {
     margin-right: 16px;
     width: 1.3em;
 }
-.contact h5{
+
+.contact h5 {
     padding-bottom: 20px;
 }
 
