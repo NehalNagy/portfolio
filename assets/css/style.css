@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
 body,
 html {
     margin: 0;
@@ -77,7 +79,18 @@ html {
     top: 15%;
     left: 15%;
 }
+h6,h5,h4, h3{
 
+    font-family: 'Merienda One', cursive;
+}
+ p{
+    font-family: 'Calligraffitti', cursive;
+    font-weight:  bold;
+}
+.contact p{
+    font-size: 25px;
+    font-weight: bold;
+}
 .arrow-down {
     color: #fff;
     font-size: 3rem;
