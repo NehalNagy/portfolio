@@ -141,7 +141,7 @@ h6,h5,h4, h3,h2,h1{
     transition: .5s ease;
     backface-visibility: hidden;
     border-radius: 5%;
-    border: 2px solid #8f62e2;
+    border: 2px solid #63269c;
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
@@ -170,16 +170,9 @@ h6,h5,h4, h3,h2,h1{
 }
 
 .social-links:hover {
-    color: #ccc;
+    color: #848b92;
 }
 
-/*
-#my-designs h5 {
-    margin-top: 30px;
-    width: 100%;
-
-}
-*/
 
 .my-designs-img:hover {
     opacity: 0.7;
@@ -212,7 +205,7 @@ h6,h5,h4, h3,h2,h1{
     padding: 2%;
 }
 #footer {
-    background-color: blueviolet;
+    background-color: #63269c;
     text-align: left;
     padding: 20px;
     color: #fff;
