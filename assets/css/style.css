@@ -25,11 +25,11 @@ html {
 }
 
 #n-header {
-    background-image: url('/assets/images/header.jpg');
+    background-image: url('../images/header.jpg');
 }
 
 #web-design-projects {
-    background-image: url('/assets/images/projects/webdesign.jpg');
+    background-image: url('../images/projects/webdesign.jpg');
     height: 400px;
     position: relative;
 }
@@ -54,12 +54,12 @@ html {
 }
 
 #photography {
-    background-image: url('/assets/images/hobbies/photography.jpg');
+    background-image: url('../images/hobbies/photography.jpg');
     position: relative;
     text-align: center;
 }
 #qoute {
-    background-image: url('/assets/images/hobbies/fingerprint.jpg');
+    background-image: url('../images/hobbies/fingerprint.jpg');
     position: relative;
     text-align: center;
     height: 400px;
