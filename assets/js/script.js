@@ -1,3 +1,17 @@
+var myLoader = document.querySelector('.myLoader');
+var nPage = document.querySelector('#n-page');
+
+// setTimeout(() => {
+//     spinnerX.style.display = 'none';
+//     pageX.style.display = 'block';
+// }, 2000);
+
+window.addEventListener('load', function() {
+    myLoader.style.display = 'none';
+    nPage.style.display = 'block';
+    console.log('All assets are loaded')
+});
+
 $(function () {
     // $(window).stellar();
 
