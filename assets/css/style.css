@@ -363,6 +363,10 @@ p {
   .right {
     left: 0%;
   }
+  #n-header {
+    background-image: url("../images/header2.png");
+    height: 100vh;
+  }
 }
 
 /*Timeline end*/
