@@ -25,7 +25,7 @@ html {
 }
 
 #n-header {
-  background-image: url("../images/header.png");
+  background-image: url("../images/header1.jpg");
   height: 100vh;
 }
 
@@ -106,8 +106,8 @@ html {
 }
 
 .header-text {
-  background-color:rgba(114, 74, 96, 0.7) ;
-  color: black;
+  background-color: rgba(114, 74, 96, 0.7);
+  color: white;
   position: absolute;
   top: 10%;
   right: 5%;
