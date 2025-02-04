@@ -104,7 +104,13 @@ html {
   text-align: left;
   /* width: 100%; */
 }
-
+.nextjs-text a {
+  text-decoration: underline;
+  color: white;
+}
+.nextjs-text a:hover {
+  color: #d2c2b2;
+}
 .header-text {
   background-color: rgba(114, 74, 96, 0.7);
   color: white;
